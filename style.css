@@ -12,12 +12,13 @@ body {
     display: flex;
     align-items: center;
     margin: 0;
-    padding-right: 5em;
+    padding-right: 4.5em;
     font-size: 3em;
 }
 
 .main i {
     margin-right: 0.5em;
+    cursor: pointer;
 }
 
 .line {
@@ -28,6 +29,7 @@ body {
     width: 200px;
     background-color: rgb(129, 125, 125);
     position: absolute;
+    z-index: 1;
 }
 
 .circle{
@@ -35,6 +37,8 @@ body {
     width: 8px;
     border-radius: 50%;
     background-color: black;
+    transform: translateX(50px);
+    z-index: 2;
 }
 
 .slider {
@@ -42,4 +46,9 @@ body {
     position: relative;
     flex-direction: column;
     justify-content: center;
+}
+
+.percent{
+    font-size: large;
+    font-weight: bold;
 }
