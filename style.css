@@ -16,9 +16,10 @@ body {
     font-size: 3em;
 }
 
-.main i {
+.icon {
     margin-right: 0.5em;
     cursor: pointer;
+    transition: transform 0.1s linear;
 }
 
 .line {
